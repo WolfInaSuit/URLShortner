@@ -14,6 +14,7 @@
 		AEC97593284DB05C00821C4F /* URLShortnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC97592284DB05C00821C4F /* URLShortnerTests.swift */; };
 		AEC9759D284DB05C00821C4F /* URLShortnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9759C284DB05C00821C4F /* URLShortnerUITests.swift */; };
 		AEC9759F284DB05C00821C4F /* URLShortnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC9759E284DB05C00821C4F /* URLShortnerUITestsLaunchTests.swift */; };
+		AEC975AE284DB50B00821C4F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC975AD284DB50B00821C4F /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		AEC97598284DB05C00821C4F /* URLShortnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLShortnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC9759C284DB05C00821C4F /* URLShortnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLShortnerUITests.swift; sourceTree = "<group>"; };
 		AEC9759E284DB05C00821C4F /* URLShortnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLShortnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEC975AD284DB50B00821C4F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				AEC97581284DB05800821C4F /* URLShortnerApp.swift */,
+				AEC975AD284DB50B00821C4F /* ViewModel.swift */,
 				AEC97583284DB05800821C4F /* ContentView.swift */,
 				AEC97585284DB05B00821C4F /* Assets.xcassets */,
 				AEC97587284DB05B00821C4F /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEC97584284DB05800821C4F /* ContentView.swift in Sources */,
+				AEC975AE284DB50B00821C4F /* ViewModel.swift in Sources */,
 				AEC97582284DB05800821C4F /* URLShortnerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
